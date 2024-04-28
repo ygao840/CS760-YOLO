@@ -1,0 +1,38 @@
+200 epochs completed in 2.471 hours.
+Optimizer stripped from runs\detect\train3\weights\last.pt, 22.5MB
+Optimizer stripped from runs\detect\train3\weights\best.pt, 22.5MB
+
+Validating runs\detect\train3\weights\best.pt...
+Ultralytics YOLOv8.1.27 🚀 Python-3.10.13 torch-2.2.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2070, 8192MiB)
+YOLOv8s summary (fused): 168 layers, 11129067 parameters, 0 gradients, 28.5 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 20/20 [00:05<00:00,  3.52it/s]
+                   all        633       1762      0.902       0.88      0.938      0.853
+          Early Blight        633        164      0.859      0.909      0.933       0.85
+               Healthy        633        261      0.872      0.893      0.939       0.83
+           Late Blight        633        176      0.929      0.903      0.957      0.888
+            Leaf Miner        633        176      0.956      0.994      0.994      0.929
+             Leaf Mold        633        215      0.876      0.822      0.919      0.815
+          Mosaic Virus        633        186      0.948      0.888      0.945      0.909
+              Septoria        633        196      0.907      0.793      0.915      0.833
+          Spider Mites        633        205      0.962      0.976       0.99      0.942
+Yellow Leaf Curl Virus        633        183       0.81      0.744       0.85      0.682
+Speed: 1.4ms preprocess, 3.2ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to runs\detect\train3
+Ultralytics YOLOv8.1.27 🚀 Python-3.10.13 torch-2.2.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2070, 8192MiB)
+YOLOv8s summary (fused): 168 layers, 11129067 parameters, 0 gradients, 28.5 GFLOPs
+val: Scanning E:\YOLO\yolov8\datasets\Tomato Leaf Diseases.v3i.yolov8\valid\labels.cache... 633 images, 0 backgrounds, 0 corrupt: 100%|██████████| 633/633 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 40/40 [00:18<00:00,  2.22it/s]
+                   all        633       1762      0.902      0.881      0.938      0.853
+          Early Blight        633        164      0.859      0.909      0.933       0.85
+               Healthy        633        261      0.873      0.893      0.939      0.829
+           Late Blight        633        176       0.93      0.903      0.958      0.889
+            Leaf Miner        633        176      0.956      0.994      0.994      0.927
+             Leaf Mold        633        215      0.876      0.823      0.919      0.814
+          Mosaic Virus        633        186      0.948      0.889      0.945      0.909
+              Septoria        633        196      0.907      0.794      0.915      0.832
+          Spider Mites        633        205      0.961      0.976       0.99      0.941
+Yellow Leaf Curl Virus        633        183       0.81      0.745       0.85      0.682
+Speed: 1.6ms preprocess, 14.4ms inference, 0.0ms loss, 4.2ms postprocess per image
+Results saved to runs\detect\train32
+
+Process finished with exit code 0
