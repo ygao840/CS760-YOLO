@@ -1,29 +1,25 @@
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    # Load a model
-    model = YOLO("myyolov8.yaml")  # build a new model from scratch
-    model = YOLO("v8s_plants.pt")  # load a pretrained model (recommended for training)
+    # model = YOLO("myyolov8.yaml")  # build a new model from scratch
+    # model = YOLO("skindisease.pt")  # load a pretrained model (recommended for training)
+    #
+    # # Use the model
+    # model.train(data="E:\YOLO\yolov8\datasets\Tomato Leaf Diseases.v3i.yolov8\data.yaml", epochs=200)  # train the model
+    # metrics = model.val()  # evaluate model performance on the validation set
+
+
+
+
+
+
+
+    # Non prtrained
+    model = YOLO("yolov8s.yaml")  # build a new model from scratch
 
     # Use the model
-    model.train(data="E:\YOLO\yolov8\datasets\Tomato pest-diseases.v1-tomato_v1.yolov9\data.yaml", epochs=200, )  # train the model
+    model.train(data="E:\YOLO\yolov8\datasets\Tomato Leaf Diseases.v3i.yolov8\data.yaml", epochs=200, pretrained = False)  # train the model
     metrics = model.val()  # evaluate model performance on the validation set
-
-# # v8s_plants
-#     # Load a model
-#     model = YOLO("myyolov8.yaml")  # build a new model from scratch
-#     model = YOLO("yolov8s.pt")  # load a pretrained model (recommended for training)
-#
-#     # Use the model
-#     model.train(data="E:\YOLO\yolov8\datasets\PlantDoc.v1-resize-416x416.yolov8\data.yaml", epochs=200, )  # train the model
-#     metrics = model.val()  # evaluate model performance on the validation set
-
-
-
-
-
-
-
 
 
 
