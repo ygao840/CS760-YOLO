@@ -1,0 +1,25 @@
+E:\YOLO\yolov8\env\python.exe E:\YOLO\yolov8\Val.py
+Ultralytics YOLOv8.1.27 🚀 Python-3.10.13 torch-2.2.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2070, 8192MiB)
+YOLOv8s summary (fused): 168 layers, 11131389 parameters, 0 gradients, 28.5 GFLOPs
+val: Scanning E:\YOLO\yolov8\datasets\Tomato pest-diseases.v1-tomato_v1.yolov9\valid\labels.cache... 211 images, 0 backgrounds, 0 corrupt: 100%|██████████| 211/211 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 14/14 [00:07<00:00,  1.97it/s]
+                   all        211        769      0.341      0.341       0.29      0.131
+                Aphids        211         20          0          0     0.0421     0.0131
+          Early Blight        211         96      0.378      0.375      0.296      0.115
+         Healthy Leaf-        211         40       0.39      0.175      0.188     0.0952
+             Leaf Curl        211         14     0.0426     0.0714      0.034     0.0131
+Leafhoppers and Jassids        211          4      0.452      0.226      0.164     0.0834
+                 Molds        211         64      0.397      0.359      0.295      0.142
+          Mosaic Virus        211         98      0.442      0.592      0.525      0.255
+              Septoria        211         62      0.274      0.323      0.224      0.109
+      bactarial canker        211         30      0.311      0.333      0.244      0.119
+        bacterial spot        211         68      0.313      0.441      0.286      0.122
+           flea beetle        211         15      0.327      0.293      0.267     0.0551
+           late_blight        211        114      0.604      0.702      0.663        0.3
+             leafminer        211         28      0.323      0.214      0.192     0.0885
+        powedry_mildew        211         61      0.462      0.377      0.394       0.15
+     yellow curl virus        211         55      0.394      0.626      0.539      0.305
+Speed: 2.0ms preprocess, 6.7ms inference, 0.0ms loss, 3.5ms postprocess per image
+Results saved to runs\detect\val4
+
+Process finished with exit code 0
