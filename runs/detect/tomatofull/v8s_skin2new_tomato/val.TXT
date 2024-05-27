@@ -1,0 +1,22 @@
+200 epochs completed in 2.432 hours.
+Optimizer stripped from runs\detect\train2\weights\last.pt, 22.5MB
+Optimizer stripped from runs\detect\train2\weights\best.pt, 22.5MB
+
+E:\YOLO\yolov8\env\python.exe E:\YOLO\yolov8\Val.py
+Ultralytics YOLOv8.1.27 🚀 Python-3.10.13 torch-2.2.1+cu121 CUDA:0 (NVIDIA GeForce RTX 2070, 8192MiB)
+YOLOv8s summary (fused): 168 layers, 11129067 parameters, 0 gradients, 28.5 GFLOPs
+val: Scanning E:\YOLO\yolov8\datasets\Tomato Leaf Diseases.v3i.yolov8\valid\labels.cache... 633 images, 0 backgrounds, 0 corrupt: 100%|██████████| 633/633 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 40/40 [00:13<00:00,  2.95it/s]
+                   all        633       1762      0.901      0.885      0.937      0.843
+          Early Blight        633        164      0.884      0.887      0.942      0.853
+               Healthy        633        261       0.86        0.9      0.927      0.818
+           Late Blight        633        176      0.925      0.906      0.964      0.875
+            Leaf Miner        633        176      0.961      0.986      0.993      0.926
+             Leaf Mold        633        215      0.866      0.842      0.914      0.788
+          Mosaic Virus        633        186      0.959      0.871       0.93      0.891
+              Septoria        633        196      0.907      0.832      0.938      0.837
+          Spider Mites        633        205      0.961      0.951      0.977      0.927
+Yellow Leaf Curl Virus        633        183      0.782      0.787      0.847      0.677
+Speed: 1.9ms preprocess, 9.4ms inference, 0.0ms loss, 1.9ms postprocess per image
+Results saved to runs\detect\val4
+
