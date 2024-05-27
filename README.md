@@ -4,7 +4,7 @@ Notes:
 2. `main.py` is used to train the model, you need to specify the pretrained model and network's yaml file's path, you also need to set the hyperparameter and dataset's yaml file's path in`model.train()`. Make sure you have already install the `ultralytics` package
 3. `read_results` is used to read `results.csv` in `runs/detect`. All you need is to custome the path and legend names.
 4. If you want to use COMET ML to tracking and compare the models, plz put your token into `Comet.py`. Before run the code, make sure you have already install the `comet_ml` package.
-`Subset.py` is used to generate a subset with a certain number of samples. You need to specify the input and output paths, also the number of samples in the subset.
+5. `Subset.py` is used to generate a subset with a certain number of samples. You need to specify the input and output paths, also the number of samples in the subset.
 
 Be carful:
 1. All the paths in the .py files in this repository will probably not work on your computer, you need to use your path to replace them carfully.
