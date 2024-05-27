@@ -5,9 +5,11 @@
 `Subset.py` is used to generate a subset with a certain number of samples. You need to specify the input and output paths, also the number of samples in the subset.
 
 Be carful:
+
 All the paths in the .py files in this repository will probably not work on your computer, you need to use your path to replace them carfully.
 
 Notes:
-No actual dataset and output model(`best.pt` and `last.pt`) is provided.\
-- Dataset: You can download the dataset according to the link in the `data.yaml` in each dataset folder.\
-- Output model: I cannot provide the model because of the GitHub upload limitation, only val plots and `results.csv` is provided. If you want the model, plz contact me.\ 
+
+No actual dataset and output model(`best.pt` and `last.pt`) is provided.
+- Dataset: You can download the dataset according to the link in the `data.yaml` in each dataset folder.
+- Output model: I cannot provide the model because of the GitHub upload limitation, only val plots and `results.csv` is provided. If you want the model, plz contact me.
